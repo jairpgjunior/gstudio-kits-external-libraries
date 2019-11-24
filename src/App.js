@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import MuiThemeProvider from "@material-ui/core/styles/MuiThemeProvider";
-import Page from "./gstudio/page.js";
+import Page2 from "./gstudio/page.js";
 
 class App extends Component {
   constructor() {
