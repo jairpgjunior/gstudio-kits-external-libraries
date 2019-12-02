@@ -1,26 +1,24 @@
-.muitextfield-muitextfield-8 {
+.bootstrapbutton-bootstrapbutton-2 {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    padding-top: 2px;
-    padding-bottom: 1px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     background: #FFFFFF;
 }
 
-.muitextfield-0 {
+.bootstrapbutton-0 {
     display: flex;
     flex-shrink: 0;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 26px;
+    padding-right: 25px;
 }
 
-.muitextfield-image_2 {
-    width: 148px;
-    height: 47px;
+.bootstrapbutton-image-7 {
+    width: 69px;
+    height: 42px;
     flex-shrink: 0;
-    background-image: url('https://gstudio-hosting.s3.amazonaws.com/PKDVPVtmRFNZQhGH7ZSaoTo1pHO2/undefined/e6f0caf8-e795-4cb4-93dd-457ca1cbc40c/Screen Shot 2019-11-20 at 5.00.39 PM.png');
-    background-size: cover;
-    background-position: center;
+    border-width: 0px;
 }
 
 * {
