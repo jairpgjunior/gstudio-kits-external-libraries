@@ -1,6 +1,6 @@
 import React from 'react';
 import './muitextfield.css';
-import TextField from '@material-ui/core';
+import TextField from '@material-ui/core/TextField';
 
 export default class Muitextfield extends React.Component {
   render() {

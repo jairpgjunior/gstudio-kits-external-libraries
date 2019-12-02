@@ -6,7 +6,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      username: ""
+      username: '',
+      color: ''
     };
   }
 
@@ -14,8 +15,8 @@ class App extends Component {
     return (
       <MuiThemeProvider>
         <Page
-          username={this.state.username}
-            ={(evt, nv) => this.setState({ username: nv })}
+          username={this.state.username} onChangeUsername={(evt, nv) => this.setState({ username: nv })}
+          color={this.state.color} onChangeColor={(evt, data) => this.setState({color: data.value})}
         />
       </MuiThemeProvider>
     );
