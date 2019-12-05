@@ -3,6 +3,7 @@ import Muitextfield from './muitextfield';
 import Semanticdropdown from './semanticdropdown';
 import Bootstrapbutton from './bootstrapbutton';
 import './page.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 
 export default class Page extends React.Component {
